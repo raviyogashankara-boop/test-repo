@@ -20,7 +20,7 @@ public class TestMail {
 					+ "<span class='greenText'>ELLISON500</span><br><br>" + "Have a good day!<br>" + "</p>" + "</body>"
 					+ "</html>";
 			JavaMailUtil.sendMail(recipient, subject, htmlTextMessage);
-		
+		//adding some comment
 
 		} catch (MessagingException e) {
 			System.out.println("Mail Sending Failed With Error: " + e.getMessage());
